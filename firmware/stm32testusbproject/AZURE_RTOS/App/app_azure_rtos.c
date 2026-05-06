@@ -26,9 +26,13 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
+#include "main.h"
 #include "logger.h"
 #include "thread_toggle.h"
 #include "thread_memtest.h"
+
+#include "si5351_modes.h"
+#include "i2c_switch.h"
 
 /* USER CODE END Includes */
 
@@ -133,6 +137,15 @@ VOID tx_application_define(VOID *first_unused_memory)
     /* USER CODE BEGIN MX_USBX_Host_Init_Success */
     thread_toggle_init();
  //   thread_memtest_init();
+    log_printf("Init SI5351\r\n");
+    HAL_GPIO_WritePin(STM_I2CRESET_GPIO_Port, STM_I2CRESET_Pin, GPIO_PIN_SET);
+    pca9546_select(2);
+    si5351_init();                          // once after power-on
+    si5351_apply_mode(SI5351_MODE_720_PAL); // call whenever mode changes
+    pca9546_select(3);
+    si5351_init();                          // once after power-on
+    si5351_apply_mode(SI5351_MODE_720_PAL); // call whenever mode changes
+    log_printf("Init SI5351 DONE\r\n");
 
     /* USER CODE END MX_USBX_Host_Init_Success */
   }
@@ -140,6 +153,16 @@ VOID tx_application_define(VOID *first_unused_memory)
 }
 
 /* USER CODE BEGIN  0 */
+extern I2C_HandleTypeDef hi2c1;
+void si5351_write(uint8_t reg, uint8_t val)
+{
+    uint8_t buf[2] = { reg, val };
+    HAL_I2C_Master_Transmit(&hi2c1, 0xc0, &buf, 2, HAL_MAX_DELAY);
+}
+extern void pca9546_write(uint8_t addr, uint8_t val)
+{
+    HAL_I2C_Master_Transmit(&hi2c1, addr, &val, 1, HAL_MAX_DELAY);
+}
 
 
 /* USER CODE END  0 */
