@@ -17,7 +17,7 @@ For now there is only a hardware design from which a physical board has been pro
 ## Video output
 
 - HDMI driven directly by FPGA
-- Analog video driven by FPGA as sigma delta and/or pattern based DAC, filtered/buffered by THS7316.
+- Analog video driven by FPGA (3 pins/channel - ~8-bit/channel resolution) filtered/buffered by THS7316.
 - NTSC in 480i or 480p, PAL in 576i or 576p
 - Polyphasic and area-based scaler allowing 720p, 1080i etc
 
@@ -39,7 +39,7 @@ For now there is only a hardware design from which a physical board has been pro
 - 1 USB A internal for keyboard
 - 3 USB A external for joystick, keyboard etc
 - 1 USB C for power only (next to power switch)
-- 1 USB C for STM32 DFU (to program it)
+- 1 rear USB C for STM32 DFU (to program it), or to be a mass-storage slave to a PC to copy data on.
 
 ## Atari peripheral emulator (ESP32 microcontroller/almost Fujinet)
 
@@ -66,9 +66,8 @@ For now there is only a hardware design from which a physical board has been pro
 - DFU mode for programming, can then program FPGA flash and ESP32 via serial (+BOOT etc).
 - HDMI i2c link (to get mode support)
 - PLL i2c link (4 programmable clocks for FPGA)
-- Samples joysticks 3 and 4, tells FPGA.
 - SWD port for debugging
-- USART port for expansion
+- UART port for debugging/expansion
 - Will run menus etc, via DMA to Atari core (+ potentially framebuffer)
 
 ## Atari core (Cyclone 10 LP FPGA)
@@ -86,5 +85,5 @@ For now there is only a hardware design from which a physical board has been pro
 - Left cartridge
 - PBI with standard extensions (enabled/selected via jumper), 50 pin edge and 50 pin header option.
 - SIO (with motor control, without 12V)
-- Start/select/option switch headers
+- Start/select/option/reset switch headers
 - 4 joystick ports
