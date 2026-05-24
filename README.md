@@ -65,7 +65,7 @@ For now there is only a hardware design from which a physical board has been pro
 - USB port + stack
 - DFU mode for programming, can then program FPGA flash and ESP32 via serial (+BOOT etc).
 - HDMI i2c link (to get mode support)
-- PLL i2c link (4 programmable clocks for FPGA)
+- PLL i2c link (6 programmable clocks for FPGA)
 - SWD port for debugging
 - UART port for debugging/expansion
 - Will run menus etc, via DMA to Atari core (+ potentially framebuffer)
