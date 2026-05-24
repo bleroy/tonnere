@@ -2,6 +2,7 @@
 ## 0.51
 
 | Component         | Status | Comment |
+| ---               | ---    | --- |
 | Audio DAC         |  🟢    | Played a multi-frequency sine wave fine |
 | ESP32             |  🟢    | Ran simple pin toggler, also checked it appears on JTAG | 
 | ESP32 audio DAC   | ⚪     | |
