@@ -2264,9 +2264,9 @@
 				(justify left)
 			)
 		)
-		(pin "VDAC{R,G,B,HSYNC,VSYNC}" bidirectional
+		(pin "VDAC{R[0..2],G[0..2],B[0..2],HSYNC,VSYNC}" bidirectional
 			(at 134.62 152.4 180)
-			(uuid "9441ebf8-374c-4ddc-a55d-06251cfbaba2")
+			(uuid "24ca7ca2-f4e8-4f45-be61-06b3a38a4771")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2798,16 +2798,6 @@
 				(justify right)
 			)
 		)
-		(pin "VDAC{R,G,B,HSYNC,VSYNC}" bidirectional
-			(at 119.38 85.09 0)
-			(uuid "737df730-0eba-4b56-beb5-dad08c2ca44f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "FPGAAUD{DATA,BCK,LR}" bidirectional
 			(at 29.21 59.69 90)
 			(uuid "537880fd-88da-4ccf-8813-efa38c81ea38")
@@ -2861,6 +2851,16 @@
 		(pin "FPGA{CONFIG_N,STATUS_N,CONF_DONE,IRQ,PS_N}" bidirectional
 			(at 119.38 69.85 0)
 			(uuid "2ec1c3ef-11c1-4af6-90a7-f4c1bec464db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDAC{R[0..2],G[0..2],B[0..2],HSYNC,VSYNC}" bidirectional
+			(at 119.38 85.09 0)
+			(uuid "3709b3ab-a2ce-4c3c-be37-337de2e01d23")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2933,16 +2933,6 @@
 		(pin "UART1{TX,RX}" bidirectional
 			(at 217.17 106.68 0)
 			(uuid "e114ded9-187f-419e-bbf8-1e06b58d8d7c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USART1{TX,RX,CK,CTS,RTS}" bidirectional
-			(at 217.17 101.6 0)
-			(uuid "96eac3eb-181e-49eb-8a29-61f63685df14")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3040,6 +3030,16 @@
 				(justify right)
 			)
 		)
+		(pin "USART1{TX,RX}" bidirectional
+			(at 217.17 101.6 0)
+			(uuid "ab5d5984-8c59-4e36-9f37-2cf1f7d27844")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "tonnere"
 				(path "/eb8e239c-f2ec-4b57-8f5c-6c75d6b59ab3"
@@ -3082,9 +3082,9 @@
 				(justify left top)
 			)
 		)
-		(pin "USART1{TX,RX,CK,CTS,RTS}" bidirectional
+		(pin "USART1{TX,RX}" bidirectional
 			(at 229.87 125.73 180)
-			(uuid "22c5696d-a423-4b1f-809e-7ec970048b24")
+			(uuid "a5d6902f-e5c4-45de-a5b1-717216769566")
 			(effects
 				(font
 					(size 1.27 1.27)

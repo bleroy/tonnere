@@ -4295,7 +4295,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1cdaffce-5d4d-43ec-ad7c-80450f055997")
-		(property "Reference" "U40"
+		(property "Reference" "U47"
 			(at 172.72 83.8199 90)
 			(effects
 				(font
@@ -4374,7 +4374,7 @@
 		(instances
 			(project "tonnere"
 				(path "/eb8e239c-f2ec-4b57-8f5c-6c75d6b59ab3/6e470164-ad0d-4d1f-a1f3-2d1a639770a2"
-					(reference "U40")
+					(reference "U47")
 					(unit 1)
 				)
 			)
@@ -4455,7 +4455,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38b0b8dd-b3fe-4977-833b-443dd1d3e8b3")
-		(property "Reference" "U39"
+		(property "Reference" "U46"
 			(at 134.62 83.8199 90)
 			(effects
 				(font
@@ -4534,7 +4534,7 @@
 		(instances
 			(project "tonnere"
 				(path "/eb8e239c-f2ec-4b57-8f5c-6c75d6b59ab3/6e470164-ad0d-4d1f-a1f3-2d1a639770a2"
-					(reference "U39")
+					(reference "U46")
 					(unit 1)
 				)
 			)
@@ -4770,7 +4770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "463347eb-f72e-4bc1-98b2-075b8ff20fdb")
-		(property "Reference" "C45"
+		(property "Reference" "C54"
 			(at 217.17 35.5599 0)
 			(effects
 				(font
@@ -4779,7 +4779,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "120uF"
 			(at 217.17 38.0999 0)
 			(effects
 				(font
@@ -4824,7 +4824,7 @@
 		(instances
 			(project "tonnere"
 				(path "/eb8e239c-f2ec-4b57-8f5c-6c75d6b59ab3/6e470164-ad0d-4d1f-a1f3-2d1a639770a2"
-					(reference "C45")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -5073,6 +5073,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_3DModel" "2b9048296755420789f7f276da73fcbc"
+			(at 134.62 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "28.5 30"
+			(at 134.62 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f48e4bb1-f806-467e-b4b2-9486f6b14821")
 		)
@@ -5197,7 +5215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cd0278e-10c2-4e64-8e31-dee06a9e7fb1")
-		(property "Reference" "C99"
+		(property "Reference" "C122"
 			(at 201.93 35.5599 0)
 			(effects
 				(font
@@ -5206,7 +5224,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "120uF"
 			(at 201.93 38.0999 0)
 			(effects
 				(font
@@ -5251,7 +5269,7 @@
 		(instances
 			(project "tonnere"
 				(path "/eb8e239c-f2ec-4b57-8f5c-6c75d6b59ab3/6e470164-ad0d-4d1f-a1f3-2d1a639770a2"
-					(reference "C99")
+					(reference "C122")
 					(unit 1)
 				)
 			)
@@ -5487,7 +5505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4147981-6946-4d1b-826a-90d716a64974")
-		(property "Reference" "C100"
+		(property "Reference" "C123"
 			(at 246.38 35.5599 0)
 			(effects
 				(font
@@ -5541,7 +5559,7 @@
 		(instances
 			(project "tonnere"
 				(path "/eb8e239c-f2ec-4b57-8f5c-6c75d6b59ab3/6e470164-ad0d-4d1f-a1f3-2d1a639770a2"
-					(reference "C100")
+					(reference "C123")
 					(unit 1)
 				)
 			)
@@ -5557,7 +5575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eaffc7c2-f234-42ed-85f0-e57b1b261247")
-		(property "Reference" "C44"
+		(property "Reference" "C53"
 			(at 232.41 35.5599 0)
 			(effects
 				(font
@@ -5611,7 +5629,7 @@
 		(instances
 			(project "tonnere"
 				(path "/eb8e239c-f2ec-4b57-8f5c-6c75d6b59ab3/6e470164-ad0d-4d1f-a1f3-2d1a639770a2"
-					(reference "C44")
+					(reference "C53")
 					(unit 1)
 				)
 			)

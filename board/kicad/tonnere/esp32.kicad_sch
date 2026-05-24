@@ -4519,7 +4519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "222fd595-2d0e-409c-af6e-d76779378a2b")
-		(property "Reference" "R92"
+		(property "Reference" "R110"
 			(at 173.99 149.8599 0)
 			(effects
 				(font
@@ -4573,7 +4573,7 @@
 		(instances
 			(project "tonnere"
 				(path "/eb8e239c-f2ec-4b57-8f5c-6c75d6b59ab3/46474bdc-762b-418e-b7cb-754958627956"
-					(reference "R92")
+					(reference "R110")
 					(unit 1)
 				)
 			)
@@ -4721,7 +4721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42e0d671-94db-4159-8985-23ad6db1efba")
-		(property "Reference" "R88"
+		(property "Reference" "R103"
 			(at 34.29 138.4299 0)
 			(effects
 				(font
@@ -4775,7 +4775,7 @@
 		(instances
 			(project "tonnere"
 				(path "/eb8e239c-f2ec-4b57-8f5c-6c75d6b59ab3/46474bdc-762b-418e-b7cb-754958627956"
-					(reference "R88")
+					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -4791,7 +4791,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65f41230-f221-4eb0-bd8b-217926ac3753")
-		(property "Reference" "R99"
+		(property "Reference" "R121"
 			(at 114.3 91.4399 0)
 			(effects
 				(font
@@ -4845,7 +4845,7 @@
 		(instances
 			(project ""
 				(path "/eb8e239c-f2ec-4b57-8f5c-6c75d6b59ab3/46474bdc-762b-418e-b7cb-754958627956"
-					(reference "R99")
+					(reference "R121")
 					(unit 1)
 				)
 			)
@@ -4861,7 +4861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b2853d0-f51c-44c7-af56-9d4f735d990a")
-		(property "Reference" "R91"
+		(property "Reference" "R108"
 			(at 36.83 172.7199 0)
 			(effects
 				(font
@@ -4915,7 +4915,7 @@
 		(instances
 			(project "tonnere"
 				(path "/eb8e239c-f2ec-4b57-8f5c-6c75d6b59ab3/46474bdc-762b-418e-b7cb-754958627956"
-					(reference "R91")
+					(reference "R108")
 					(unit 1)
 				)
 			)
@@ -4931,7 +4931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "721d9993-0c99-42e0-8737-8d03a9daeb9c")
-		(property "Reference" "R90"
+		(property "Reference" "R106"
 			(at 194.31 91.4399 0)
 			(effects
 				(font
@@ -4985,7 +4985,7 @@
 		(instances
 			(project "tonnere"
 				(path "/eb8e239c-f2ec-4b57-8f5c-6c75d6b59ab3/46474bdc-762b-418e-b7cb-754958627956"
-					(reference "R90")
+					(reference "R106")
 					(unit 1)
 				)
 			)
@@ -5067,7 +5067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d468112-713a-4d13-9a7d-5da197966bfc")
-		(property "Reference" "C94"
+		(property "Reference" "C117"
 			(at 267.97 67.3099 0)
 			(effects
 				(font
@@ -5121,7 +5121,7 @@
 		(instances
 			(project "tonnere"
 				(path "/eb8e239c-f2ec-4b57-8f5c-6c75d6b59ab3/46474bdc-762b-418e-b7cb-754958627956"
-					(reference "C94")
+					(reference "C117")
 					(unit 1)
 				)
 			)
@@ -5229,7 +5229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8f4302a-7e2c-4a00-8688-eb0195d72533")
-		(property "Reference" "J18"
+		(property "Reference" "J19"
 			(at 228.6 68.5799 0)
 			(effects
 				(font
@@ -5292,7 +5292,7 @@
 		(instances
 			(project ""
 				(path "/eb8e239c-f2ec-4b57-8f5c-6c75d6b59ab3/46474bdc-762b-418e-b7cb-754958627956"
-					(reference "J18")
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -5307,7 +5307,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b692d93a-144f-4ee4-a67c-dbe2f7db2f74")
-		(property "Reference" "C92"
+		(property "Reference" "C115"
 			(at 255.27 67.3099 0)
 			(effects
 				(font
@@ -5361,7 +5361,7 @@
 		(instances
 			(project "tonnere"
 				(path "/eb8e239c-f2ec-4b57-8f5c-6c75d6b59ab3/46474bdc-762b-418e-b7cb-754958627956"
-					(reference "C92")
+					(reference "C115")
 					(unit 1)
 				)
 			)
@@ -5377,7 +5377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5943ab5-d3a0-4a6f-ad0b-1ba1702bdb41")
-		(property "Reference" "R94"
+		(property "Reference" "R113"
 			(at 177.8 90.1699 0)
 			(effects
 				(font
@@ -5431,7 +5431,7 @@
 		(instances
 			(project "tonnere"
 				(path "/eb8e239c-f2ec-4b57-8f5c-6c75d6b59ab3/46474bdc-762b-418e-b7cb-754958627956"
-					(reference "R94")
+					(reference "R113")
 					(unit 1)
 				)
 			)
@@ -5447,7 +5447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb9d88ce-5c78-4270-9d21-8ba1866c2abe")
-		(property "Reference" "U34"
+		(property "Reference" "U40"
 			(at 134.62 97.79 0)
 			(effects
 				(font
@@ -5664,7 +5664,7 @@
 		(instances
 			(project ""
 				(path "/eb8e239c-f2ec-4b57-8f5c-6c75d6b59ab3/46474bdc-762b-418e-b7cb-754958627956"
-					(reference "U34")
+					(reference "U40")
 					(unit 1)
 				)
 			)
