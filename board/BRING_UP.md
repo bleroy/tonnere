@@ -11,7 +11,7 @@
 | FPGA FLASH        |  🟢    | Working fine. Only tested one IC.  | 
 | HDMI port         |  🟢    | Tested DVI video output  | 
 | JOYSTICK DIR      |  🟢    | Tested toggling pins |
-| JOYSTICK PADDLES ~| ⚪     |  |
+| JOYSTICK PADDLES  | ⚪     |  |
 | PLL1              |  🟢    | Programmed via I2C and checked they produce clocks |
 | PLL2              |  🟢    | Programmed via I2C and checked they produce clocks |
 | SDCARD(EXT)       | ⚪     |  | 
@@ -36,10 +36,11 @@ Not made yet...
 
 ## Key
 | Symbol | Status |
-| ⚪ | Not checked yet |
-| 🔴 | Failed |
-| 🟡 | Works with workaround |
-|  |🟢 Passed |
+| ---    | ---    |
+| ⚪     | Not checked yet |
+| 🔴     | Failed |
+| 🟡     | Works with workaround |
+| 🟢     | Passed |
 
 Passed does not mean thoroughly checked...
 
