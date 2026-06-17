@@ -7449,6 +7449,17 @@
 				)
 			)
 		)
+		(property "FT Layer Override" ""
+			(at 154.94 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9268edd9-5a0d-4a1a-9976-c77c8c9c0d14")
 		)
@@ -7529,6 +7540,17 @@
 			)
 		)
 		(property "FT Origin" ""
+			(at 193.04 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Layer Override" ""
 			(at 193.04 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7783,6 +7805,17 @@
 				)
 			)
 		)
+		(property "FT Layer Override" ""
+			(at 17.78 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dbc88f7b-b1ce-4c1b-9b12-587e7102574f")
 		)
@@ -7863,6 +7896,17 @@
 			)
 		)
 		(property "FT Origin" ""
+			(at 151.13 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Layer Override" ""
 			(at 151.13 133.35 90)
 			(hide yes)
 			(show_name no)
@@ -7963,6 +8007,17 @@
 				)
 			)
 		)
+		(property "FT Layer Override" ""
+			(at 193.04 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "72dbdeb6-b332-4b6c-a7d4-ac44db425432")
 		)
@@ -8043,6 +8098,17 @@
 			)
 		)
 		(property "FT Origin" ""
+			(at 132.08 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Layer Override" ""
 			(at 132.08 133.35 90)
 			(hide yes)
 			(show_name no)
@@ -8143,6 +8209,17 @@
 				)
 			)
 		)
+		(property "FT Layer Override" ""
+			(at 193.04 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e81da9be-761d-4948-b68b-2dc06b4106c9")
 		)
@@ -8223,6 +8300,17 @@
 			)
 		)
 		(property "FT Origin" ""
+			(at 36.83 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Layer Override" ""
 			(at 36.83 133.35 90)
 			(hide yes)
 			(show_name no)
@@ -8323,6 +8411,17 @@
 				)
 			)
 		)
+		(property "FT Layer Override" ""
+			(at 192.4691 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "55a3f733-7bc3-4920-be10-c2515eaf692a")
 		)
@@ -8403,6 +8502,17 @@
 			)
 		)
 		(property "FT Origin" ""
+			(at 170.18 133.2579 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Layer Override" ""
 			(at 170.18 133.2579 90)
 			(hide yes)
 			(show_name no)
@@ -8503,6 +8613,17 @@
 				)
 			)
 		)
+		(property "FT Layer Override" ""
+			(at 93.98 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "39313d4b-51c0-4861-ba44-1bd4912db8ec")
 		)
@@ -8593,6 +8714,17 @@
 				)
 			)
 		)
+		(property "FT Layer Override" ""
+			(at 55.88 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3160f139-9faf-42a2-9520-78402eeff208")
 		)
@@ -8673,6 +8805,17 @@
 			)
 		)
 		(property "FT Origin" ""
+			(at 74.93 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Layer Override" ""
 			(at 74.93 133.35 90)
 			(hide yes)
 			(show_name no)
@@ -8850,6 +8993,17 @@
 				)
 			)
 		)
+		(property "FT Layer Override" ""
+			(at 154.94 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b0376d16-24a6-4e75-9e3b-21416d7b89ef")
 		)
@@ -8930,6 +9084,17 @@
 			)
 		)
 		(property "FT Origin" ""
+			(at 154.94 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Layer Override" ""
 			(at 154.94 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -9106,6 +9271,17 @@
 				)
 			)
 		)
+		(property "FT Layer Override" ""
+			(at 191.77 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6df88b21-835b-404c-8640-61dcab2f958e")
 		)
@@ -9186,6 +9362,17 @@
 			)
 		)
 		(property "FT Origin" ""
+			(at 193.04 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Layer Override" ""
 			(at 193.04 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -9286,6 +9473,17 @@
 				)
 			)
 		)
+		(property "FT Layer Override" ""
+			(at 113.03 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "487776e8-05ed-4752-b95f-767ad9e5f0f5")
 		)
@@ -9365,6 +9563,17 @@
 			)
 		)
 		(property "FT Origin" ""
+			(at 191.77 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Layer Override" ""
 			(at 191.77 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9455,6 +9664,17 @@
 			)
 		)
 		(property "FT Origin" ""
+			(at 154.94 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Layer Override" ""
 			(at 154.94 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -9632,6 +9852,17 @@
 				)
 			)
 		)
+		(property "FT Layer Override" ""
+			(at 193.04 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "938ec2a2-26f0-4a02-a6cd-840a927a1408")
 		)
@@ -9721,6 +9952,17 @@
 			)
 		)
 		(property "FT Origin" ""
+			(at 265.43 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Layer Override" ""
 			(at 265.43 83.82 0)
 			(hide yes)
 			(show_name no)

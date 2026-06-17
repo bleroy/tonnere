@@ -673,7 +673,7 @@
           "group_by": false,
           "label": "FT Origin",
           "name": "FT Origin",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -710,6 +710,12 @@
           "label": "Basic",
           "name": "Basic",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FT Layer Override",
+          "name": "FT Layer Override",
+          "show": true
         }
       ],
       "filter_string": "",

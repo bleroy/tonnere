@@ -1241,7 +1241,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C5149201"
+		(property "LCSC Part #" "C5378731"
 			(at 132.08 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -1253,6 +1253,28 @@
 			)
 		)
 		(property "FT Origin" ""
+			(at 132.08 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Layer Override" ""
+			(at 132.08 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
 			(at 132.08 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -1679,6 +1701,17 @@
 			)
 		)
 		(property "FT Origin" ""
+			(at 153.67 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Layer Override" ""
 			(at 153.67 91.44 0)
 			(hide yes)
 			(show_name no)
