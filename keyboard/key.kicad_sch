@@ -533,6 +533,17 @@
 				)
 			)
 		)
+		(property "FT Layer Override" ""
+			(at 130.81 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3898b6fe-94e9-4b40-91ba-4142ebf232e3")
 		)
@@ -901,6 +912,39 @@
 			)
 		)
 		(property "FT Origin" ""
+			(at 125.73 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Layer Override" "bottom"
+			(at 125.73 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 125.73 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" "0.635,3.81"
 			(at 125.73 96.52 0)
 			(hide yes)
 			(show_name no)
