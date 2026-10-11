@@ -10,3 +10,6 @@ keyboard/Badge/Badge-backups
 *.af~lock~
 .vscode
 BadgeLights-backups
+keyboard/MegaXE-keyboard-ISO.kicad_pro-backups
+_autosave-*.kicad_pcb
+*.log
